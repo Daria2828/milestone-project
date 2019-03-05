@@ -10,31 +10,37 @@ h1 {
 	font-size: 36pt;
 	font-weight: 700;
 	color: #f70074;
+	padding-top: 50px;
+	padding-bottom: 35px;
 	text-align: center;
 }
 /***** GRID *****/
 .full-width {
-	width: 1200px;
+	width: 1400px;
 	margin: 0 auto;
 }
 
 .half-width {
-	width: 600px;
+	width: 650px;
 	float: left;
 }
 
 .third-width {
-	width: 400px;
+	width: 450px;
 	float: left;
 }
 /***** HEADER *****/
 header {
 	font-size: 20pt;
+	height: 800px;
 }
 
-nav {
+header p {
+	margin-left: 25px;
+}
+
+nav ul {
 	float: right;
-	padding: 0;
 }
 
 nav ul li {
@@ -45,5 +51,87 @@ nav ul li a {
 	color: #ffffff;
 	padding-left: 45px;
 	text-decoration: none;
+}	
+
+#hero {
+	background: url('../img/hero-background.png');
+	background-size: cover;
+	clear: both;
+	height: 720px;
 }
 
+#hero p {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 50pt;
+	line-height: 80px;
+	margin-left: 100px;
+	padding-top: 300px;
+}
+
+span {
+	color: #fa0075;
+}
+
+/***** WORK *****/
+#work {
+	width: 1200px;
+	margin: auto;
+	height: 1550px;
+	font-size: 20px;
+}
+
+.rogue, .jubilee, .holstee {
+	float: left;
+}
+#work img, #work p, #work h3, #work h2 {
+	width: 480px;
+	margin: 50px;
+}
+
+#work h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 50px;
+}
+
+#work h3 {
+	margin-top: 0px;
+	font-weight: 400;
+}
+
+#right-justify {
+	text-align: right;
+}
+
+/***** ABOUT *****/
+#about {
+	background: url('../img/about-me.png');
+	height: 550px;
+	width: 1400px;
+}
+
+#about h2, #about p {
+	color: #000000;
+	font-size: 20px;
+	width: 600px;
+	margin-left: 75px;
+}
+
+/***** CONTACT *****/
+#contact {
+	height: 400px;
+	text-align: center;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul li img {
+	padding-right: 60px;
+}	
+
+/***** FOOTER *****/
+footer h4 {
+	text-align: center;
+}
